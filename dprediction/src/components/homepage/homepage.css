@@ -1,0 +1,71 @@
+.homepage{
+    background-image:url('../homepage/11.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+}
+
+.homepage > .quota{
+    background-color: rgb(213, 244, 244); 
+     border: 1px solid rgb(184, 184, 239);
+    color: rgb(5, 5, 4);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:0.7cm;
+    /* border-radius: 10px; */
+    font-style: italic;
+    margin-top:2cm;
+    margin-left: 1cm;
+    outline: none;
+    cursor: pointer;
+    display: inline-block
+}
+.circle {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 450px;
+    height: 400px;
+    background-color: #8be5e5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #423838;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    /* width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: rgb(98, 209, 229);
+    color: rgb(19, 18, 18);
+    text-align: right;
+    margin-top: 1cm;
+    line-height: 50px; */
+  }
+  .buttons-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top:5cm;
+    margin-left: 7cm;
+  }
+  
+  .login-button,
+  .logout-button {
+    background-color: #090e0e;
+    border: 2px solid rgb(208, 161, 53);
+    color: #423838;
+    font-size: 2.25rem;
+    padding: 6rem;
+    margin: 2.5rem;
+    border-radius: 40px;
+    outline: none;
+  }
+  

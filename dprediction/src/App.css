@@ -1,0 +1,11 @@
+.App{
+  /* margin-top: 80px; */
+  display: flex;
+ justify-content: center;
+  width: 100vw; 
+  height: 100vh; 
+  background-color: rgb(246, 200, 169);
+  align-items: center;
+  /* background-color: beige; */
+  
+}
